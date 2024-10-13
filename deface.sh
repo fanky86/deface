@@ -9,7 +9,6 @@ echo ''
 read -p $'\e[32mWeb Target :\e[0m ' target
 read -p $'\e[32mBuat Username Untuk Di script :\e[0m ' user
 read -p $'\e[32mpesan  :\e[0m ' pesan1
-cd $HOME
 rm -f index.html  # Gunakan -f untuk menghindari pesan error jika file tidak ada
 cat <<LOGIN > index.html
 <!DOCTYPE html>
