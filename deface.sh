@@ -126,4 +126,10 @@ EOF
         exit
     fi
 
-elif [[ "$jj" == "x" || "$jj" == "X
+elif [[ "$jj" == "x" || "$jj" == "X" ]]; then
+    echo 'Bye!'
+    exit
+else
+    echo "Opsi tidak dikenali."
+fi
+
